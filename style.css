@@ -1,0 +1,135 @@
+body{
+	margin: 0;
+	font-family: serif;
+	color: white;
+	font-size: 25px;
+	background: linear-gradient(#4d0000,#AA0707);
+}
+
+.banner{
+	background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('C:/Users/Manuel/Desktop/Facultad/Varios/Cursos/Intro a la programación (HTML-CSS)/Entrega/images/iphones.jpg');
+	background-position: center;
+	text-align: center;
+	width: 100%;
+	padding: 150px 0;
+	color: white;
+}
+.banner p{
+	opacity: 0.7;
+	font-size: 24px;
+}
+.banner h1 {
+	font-size: 45px;
+	text-align: center;
+	display: block;
+	margin: 0;
+}
+
+button{
+	font-size: 20px;
+	background-color: #1A48E3;
+	color: white;
+	font-weight: 650;
+	padding: 15px 45px;
+	box-shadow: 3px 3px #888888;
+	border: 0px;
+	border-radius: 8px;
+	cursor: pointer;
+}
+/*Cajitas
+Cajitas
+Cajitas
+Cajitas
+Cajitas
+Cajitas
+Cajitas*/
+
+.blog-posts{
+	width: min(1200px,100%);
+	padding: 0 50px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	cursor: default;
+}
+.post{
+	width: calc(33% - 10px);	
+	overflow: hidden;
+}
+.post-img{
+	width: 100%;
+	transition: .3s linear;
+ 	border-radius: 6px;
+	
+}
+.post-content{
+	background-color: hsl(0, 92%, 65%);
+	color: black;
+	height: 150px;
+	margin: 0 20px;
+	padding: 20px;
+	text-align: justify;
+	transform: translateY(-60px);
+	transition: .3s linear;
+	border-style: solid;
+	border-width: 3px;
+	border-radius: 6px;
+}
+.post-content h3{
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+.post-content h4{
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+
+.post:hover .post-img{
+transform: translateY(20px);
+}
+.post:hover .post-content{
+	transform: translateY(-80px);
+}
+/*footer
+footer
+footer
+footer
+footer*/
+
+footer{
+	background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.8));
+	text-align: center;
+	
+}
+
+footer > a{
+	text-decoration: none;
+	padding: 0 15px;
+}
+footer > h3{
+	margin: 0;
+}
+i{
+	font-size: 35px;
+	padding: 15px;
+	
+}
+
+#wsp{
+	color: #25D366;
+}
+#fb{
+	color: #3b5998;
+}
+#ins{
+	/*background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);*/
+	color: #d6249f;
+}
+@media screen and (max-width: 1200px){
+	.blog-posts{
+		justify-content: center;
+	}
+	.post{
+	width: min(600px, 100%);
+	}
+}
