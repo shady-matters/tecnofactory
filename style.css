@@ -7,7 +7,7 @@ body{
 }
 
 .banner{
-	background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('iphones.jpg');
+	background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url("iphones.jpg");
 	background-position: center;
 	text-align: center;
 	width: 100%;
