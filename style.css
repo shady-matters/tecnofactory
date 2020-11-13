@@ -7,7 +7,7 @@ body{
 }
 
 .banner{
-	background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('C:/Users/Manuel/Desktop/Facultad/Varios/Cursos/Intro a la programación (HTML-CSS)/Entrega/images/iphones.jpg');
+	background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('images/iphones.jpg');
 	background-position: center;
 	text-align: center;
 	width: 100%;
