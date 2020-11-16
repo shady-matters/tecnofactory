@@ -7,7 +7,7 @@ body{
 }
 
 .banner{
-	background: linear-gradient(rgba(42, 49, 60,0.8),rgba(42, 49, 60,0.95)), url('C:/Users/Manuel/Desktop/Facultad/Varios/Cursos/Intro a la programación (HTML-CSS)/Entrega/images/fondo2.jpg');
+	background: linear-gradient(rgba(42, 49, 60,0.8),rgba(42, 49, 60,0.95)), url('images/fondo2.jpg');
 	background-repeat: no-repeat;
  	background-size: cover;
 	background-position: center;
