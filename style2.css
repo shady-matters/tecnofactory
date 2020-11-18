@@ -129,14 +129,29 @@ footer input{
 }
 
 /*ICONOS y responsive*/
+#wsp:hover{
+	transform: scale(1.5);
+	transition: .2s linear;
+}
+#fb:hover{
+	transform: scale(1.5);
+	transition: .2s linear;
+}
+#ins:hover{
+	transform: scale(1.5);
+	transition: .2s linear;
+}
 #wsp{
 	color: #25D366;
+	transition: .2s linear;
 }
 #fb{
 	color: #3b5998;
+	transition: .2s linear;
 }
 #ins{
 	color: #d6249f;
+	transition: .2s linear;
 }
 @media screen and (max-width: 1200px){
 	.blog-posts{
