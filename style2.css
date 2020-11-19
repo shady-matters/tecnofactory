@@ -46,8 +46,6 @@ body{
 
 .blog h2{
 	padding: 0 0 0 50px;
-	text-decoration: underline white;
-	
 }
 .blog-posts{
 	width: min(1200px,100%);
@@ -117,9 +115,6 @@ footer input{
 }
 .contact{
 	position: relative;top: 10px;left: 725px;
-}
-.contact h3{
-	text-decoration: underline white;
 }
 .contact a{
 	text-decoration: none;
