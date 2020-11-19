@@ -99,7 +99,7 @@ footer{
 
 footer i{
 	font-size: 35px;
-	padding: 15px;
+	padding: 5px 15px 0 15px;
 }
 footer h3{
 	margin: 0;
@@ -111,16 +111,16 @@ footer p{
 }
 footer input{
 	font-size: 20px;
-
+	margin: 15px 0 10px 0;
 }
 .contact{
-	position: relative;top: 10px;left: 725px;
+	position: relative;left: 725px;
 }
 .contact a{
 	text-decoration: none;
 }
 .news{
-	position: relative;top: 10px;left: 250px;
+	position: relative;left: 250px;
 }
 
 /*ICONOS y responsive*/
@@ -156,3 +156,22 @@ footer input{
 	width: min(600px, 100%);
 	}
 }
+
+
+/*
+/* Extra small devices (phones, 600px and down) 
+@media only screen and (max-width: 600px) {...}
+
+/* Small devices (portrait tablets and large phones, 600px and up) 
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) 
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) 
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) 
+@media only screen and (min-width: 1200px) {...}
+*/
+
